@@ -8,8 +8,7 @@ body {
 }
 
 header,footer{
-  width:100%;
-  padding:10px 2em;
+  padding:10px 0 10px 2em;
   color:#F0F0F0;
   background-color: #333333;
 }
@@ -26,10 +25,8 @@ header h1,img {
   vertical-align: middle;
 }
 nav{
-  display: inline-block;
-  position: absolute;
-  right:0px;
-  margin:6px 0;
+  display: block;
+  float:right;
 }
 nav ul{
   margin:0;
@@ -49,7 +46,6 @@ nav li{
   width:80px;
   font-size: 12px;
   float:left;
-  margin: 0 0.5em;
 }
 
 article,aside{
