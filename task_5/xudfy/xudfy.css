@@ -1,0 +1,122 @@
+body{
+  font-family: "宋体";
+  font-size: 12px;
+  width:892px;
+  height:1386px;
+  margin:0 auto;
+  padding: 0 44px;
+}
+
+.a1-holder {
+  font-family: "黑体";
+  position: relative;
+  width:892px;
+  border-bottom: 2px solid #938e8e;
+  margin-bottom: 34px;
+}
+
+.a1-left-holder {
+  position: relative;
+  width:110px;
+  height:61px;
+  background-color: #d45c5b;
+}
+
+.a1-left-holder span {
+  position: absolute;
+  color:#fff;
+  bottom: 0;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+.a1-holder>span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 3px;
+  color: #d45d5c;
+}
+
+.a2-left-holder{
+  position: relative;
+  width:641px;
+  height: 301px;
+}
+.a2-cgreen,.a2-cred{
+  position:absolute;
+  width:191px;
+  height:301px;
+}
+.a2-cgreen{
+  left:0;
+  top:0;
+  background-color: #408b59;
+  opacity: 0.5;
+
+}
+.a2-cred{
+  background-color: #cd7580;
+  opacity: 0.5;
+  top:0;
+  right:0;
+}
+
+.a2-right-holder{
+  position: relative;
+  font-family: "微软雅黑";
+  float:right;
+  width:203px;
+  height: 299px;
+  border-top: 2px solid #cc8091;
+}
+.a2-t1{
+  display: table;
+  padding-top: 10px;
+  letter-spacing: 0px;
+  font-size: 24px;
+  line-height: 20px;
+  border-bottom: 2px solid #000;
+}
+small{
+  font-size:0.7em;
+}
+.a2{
+  padding-top: 3px;
+  font-size: 12px;
+  font-family: "楷体";
+  font-style: oblique;
+  color: #676767;
+  line-height: 10px;
+}
+.a2-t2{
+  font-size: 116px;
+  font-style: oblique;
+  text-indent: -15px;
+  color:#75b86b;
+}
+.a2-t3{
+  position: absolute;
+  bottom: 0;
+}
+.a2-t3-left{
+  display:inline-block;
+  font-size: 55px;
+  line-height: 45px;
+  color:#cc8091;
+}
+.a2-t3-right{
+  margin-left: 5px;
+  display: inline-block;
+  color:#cc8091;
+  }
+.a2-t3-c{
+  display: block;
+  font-size: 21px;
+  line-height: 21px;
+}
+.a2-t3-d{
+  display: block;
+  font-size: 12px;
+  line-height: 10px;
+}
