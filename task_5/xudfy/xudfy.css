@@ -1,0 +1,173 @@
+body {
+  width:100%;
+  font-family: sans-serif,Arial,Helvetica,"微软雅黑";
+  font-size: 16px;
+  line-height: 1.8em;
+  margin:0;
+  background-color: #DEDEDE;
+}
+
+header,footer{
+  padding:10px 0 10px 2em;
+  color:#F0F0F0;
+  background-color: #333333;
+}
+
+footer{
+  height: 4em;
+  padding-top: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+
+header h1,img {
+  display: inline;
+  vertical-align: middle;
+}
+nav{
+  display: block;
+  float:right;
+}
+nav ul{
+  margin:0;
+  color: #000;
+  list-style-type: disc;
+}
+nav a{
+  width:auto;
+  text-decoration: none;
+  color: #F0F0F0;
+}
+nav a:hover{
+  color:#a6a6a6;
+}
+nav li{
+  display:list-item;
+  width:80px;
+  font-size: 12px;
+  float:left;
+}
+
+article,aside{
+  margin:1em;
+  padding:1em;
+  border-width:1px;
+  border-style: solid;
+  border-color: #b4b4b4;
+  box-shadow: 2px 1px 1px #8e8e8e;
+  background-color: #FFF;
+}
+article {
+  margin-right: 390px;
+}
+
+aside{
+  position:absolute;
+  right:0;
+  top:50px;
+  width:324px;
+}
+
+p{
+  text-indent: 2em;
+}
+
+article h2{
+  font-size: 1.2em;
+  color:#606060;
+}
+
+article span.author,time{
+  font-size:0.8em;
+  color:#808080;
+}
+
+article figure{
+  display: inline-block;
+  padding:0.5em;
+  margin:10px 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+}
+figcaption{
+  text-align: center;
+  font-size: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+article ul{
+  list-style-type: none;
+}
+
+article table{
+  width:100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}
+article th, td{
+  padding:0.5em 0.5em;
+  line-height: 1em;
+}
+
+article th{
+  color:#f0f0f0;
+  text-align: left;
+  background-color: #333;
+}
+
+article tr.total{
+  font-weight: bold;
+  background-color: #ccc;
+}
+
+aside h1 span{
+  vertical-align: middle;
+  font-size:16px;
+}
+
+span.side-h{
+  display: inline-block;
+  margin-right: 0.8em;
+  width:3px;
+  height:2em;
+  background-color: #ccc;
+}
+
+aside table{
+  font-size: 12px;
+  width:100%;
+}
+
+aside table p{
+  text-indent: 0;
+  margin:0.8em 0 1em;
+  color:#808080;
+}
+
+aside td{
+  padding:0.3em 0.5em;
+}
+
+aside td.form-name{
+  padding-top: 0.6em;
+  padding-left: 0em;
+  width:30%;
+  vertical-align: top;
+  text-align: right;
+}
+
+aside textarea{
+  width:100%;
+}
+aside input[type="submit"]{
+  width:100%;
+  height:2.5em;
+  font-size: 16px;
+  font-family: sans-serif,Arial,Helvetica,"黑体";
+  color:#f0f0f0;
+  background-color: #3355D0;
+  border:1px solid #ccc;
+  border-radius: 0.5em;
+}
