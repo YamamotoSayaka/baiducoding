@@ -308,9 +308,9 @@ small{
   position: relative;
   display: inline-block;
   margin-top: 30px;
-  width:410px;
+  width:414px;
   height: 270px;
-  padding: 24px;
+  padding: 24px 22px;
   background-color: #edecd5;
 }
 .a4-right-2 ul{
@@ -374,7 +374,33 @@ small{
   line-height: 12px;
 }
 .a4-2-b2{
-  margin-left:260px;
+  position: relative;
+  margin-left:252px;
+  margin-top:48px;
+  font-family: "黑体";
+  line-height: 16px;
+  font-size: 14px;
+  color:#5a5b5b;
+  font-style: oblique;
+}
+.b2-left,.b2-right{
+  display: inline-block;
+  font-size: 72px;
+  font-style: normal;
+  color:#d45d5c;
+  vertical-align: middle;
+}
+.b2-left{
+  position: relative;
+  top:14px;
+  left:-4px;
+  line-height: 16px;
+  margin-left: -36px;
+}
+.b2-right{
+  position: relative;
+  top:27px;
+  left:45px;
 }
 .a5-holder{
   position: absolute;
