@@ -320,6 +320,7 @@ small{
   text-align: left;
   margin:0;
   padding-left: 16px;
+  list-style-image: url(list-type.gif);
 }
 .a4-right-2 li{
   margin:0 0 20px 0;
