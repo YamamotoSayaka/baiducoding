@@ -4,9 +4,10 @@ body{
   font-size :14px;
   margin:0;
   width: 100%;
-  min-width: 785px;
+  min-width: 1080px;
 }
 h1,h2,h3,h4,h5,h6,ul,a{
+  padding: 0;
   text-decoration: none;
   line-height: 1em;
   color:#fff;
@@ -44,6 +45,7 @@ header{
   overflow: visible;
   position: fixed;
   top:0;
+  right:0;
   z-index: 10;
   background-color: #fff;
 }
@@ -207,3 +209,151 @@ header li{
   color:#323333;
   opacity: 0.5;
 }
+.e-holder{
+  position: relative;
+  height:287px;
+  width:100%;
+  text-align: center;
+  padding-top:53px;
+}
+.e-bg{
+  position: absolute;
+  top:0;
+  width:100%;
+  height:100%;
+  z-index: -2;
+  background-image: url(e-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.e-cover{
+  position: absolute;
+  top:0;
+  width:100%;
+  height:100%;
+  z-index: -1;
+  background-color: #aa3432;
+  opacity: 0.2;
+}
+.e-holder h3{
+  font-size: 21px;
+}
+.e-holder input[type="button"]{
+  align-items: center;
+  padding:0 0 0 20px;
+  border:0;
+  width:217px;
+  height: 36px;
+  background-color: #bf4f49;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 20px;
+  cursor: pointer;
+}
+.e-holder input[type="button"]:hover{
+  background-color: #bd5953;
+}
+.e-holder input[type="button"]:active{
+  background-color: #a33c35;
+}
+.e-holder input:focus{
+  outline: 0;
+}
+.little-bar{
+  display: block;
+  width:30px;
+  height:2px;
+  margin:10px auto;
+  background-color: #fff;
+}
+
+.e-text{
+  margin-top:19px;
+  margin-bottom: 52px;
+  color:#fff;
+}
+.sel-holder{
+  display: inline-block;
+  vertical-align: top;
+
+}
+.sel-holder ul{
+    list-style: none;
+}
+.sel-holder input[type="radio"]{
+  display:none;
+}
+.sel{
+  position: relative;
+  width:214px;
+  height: 18px;
+  padding:  10px 8px 8px 16px;
+  font-size: 12px;
+  color:#a8aaaa;
+  background-color: #fff;
+  text-align: left;
+  cursor: pointer;
+  margin-right: 40px;
+}
+.sel:focus{
+  outline:#be4e48 solid 2px ;
+}
+.sel span{
+  display: block;
+  position: absolute;
+  right:8px;
+  top:8px;
+  width:16px;
+  height:18px;
+  padding-left: 3px;
+  background-color: #be4e48;
+}
+.sel span img{
+  margin:0;
+}
+
+.sel-holder ul{
+  display: none;
+  background-color: #e3e3e4;
+  width: 238px;
+  border: 2px solid #be4e48;
+  margin-left: -2px;
+}
+.sel:focus+ul{
+  display: block;
+  z-index: 10;
+}
+.sel-holder li{
+  height: 27px;
+  text-align: left;
+  font-size: 12px;
+  color:#323333;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.sel-holder li span{
+  display: inline-block;
+  vertical-align: middle;
+  width: 27px;
+  height: 27px;
+}
+.sel-holder li:hover{
+  background-color:#be4e48;
+  color: #fff;
+  opacity: 1;
+}
+.sel-holder li:hover span{
+  background-image: url(e-hook.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sel-flex{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: top;
+}
+
+
+/*cover aa3432  theme red be4e48 e3e3e4 tprom a8aaaa 323333 f7f7f7 e3e3e4*/
