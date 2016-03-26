@@ -319,6 +319,7 @@ header li{
   width: 238px;
   border: 2px solid #be4e48;
   margin-left: -2px;
+  margin-bottom: -4000px
 }
 .sel:focus+ul{
   display: block;
@@ -354,6 +355,155 @@ header li{
   flex-direction: row;
   align-items: top;
 }
+.f-holder{
+  display:flex;
+  justify-content: space-around;
+  height:390px;
+  padding: 100px 132px 115px;
+  background-color: #f7f7f7;
+}
+.f-item{
+  margin:0 18px;
+  text-align: center;
+}
+.f-img{
+  position: relative;
+  width:220px;
+  height:335px;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: #dadada;
+  background-color: #fff;
+}
+.f-2{
+  position: relative;
+  width:220px;
+  height:334px;
+  border: 1px solid #dadada;
+  background-color: #fff;
+}
+.f-i{
+  position: absolute;
+  left:9px;
+  top:11px;
+}
+.f-item h5{
+  font-size: 14px;
+  color:#000;
+  margin-top:12px;
+}
+.f-item h6{
+  font-size: 12px;
+  color:#323333;
+  opacity: 0.7;
+  margin-top:12px;
+}
+#revert h5{
+  overflow: hidden;
+  white-space: nowrap;
+  width: 222px;
+  font-size: 20px;
+  letter-spacing: 36px;
+  text-indent: 18px;
+  margin:3px 0 0 0;
+  text-align: center;
+}
+#revert h6{
+  margin:8px 0;
+}
+.g-holder{
+  height:1086px;
+  width:100%;
+}
+.g-holder>div{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  height:543px;
+}
+.g-33{
+  width:33%;
+}
+.g-34{
+  width:34%;
+}
+.g-1{
+  width:66%;
+  position: relative;
+  background-image: url(g-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.g-1 h2{
+font-size:49.47px;
+}
+.g-1 h1{
+  font-size: 157.79px;
+  line-height: 140px;
+  margin-bottom:5px;
+}
+.g-1 h5{
+  font-size: 21.91px;
+  margin-top:20px;
+}
+.g-2 img{
+  margin-bottom: 10px;
+}
+.g-2 p{
+  font-family: "宋体";
+  font-size:12px;
+  color:#aaaaaa;
+  line-height: 30px;
+}
+.g-2-button{
+  width:106px;
+  height: 33px;
+  margin-top: 40px;
+  font-size: 12px;
+  color:#e25c60;
+  line-height: 33px;
+  text-align: center;
+  border:1px solid #e25c60;
+  background-color: #fff;
+  transition: background-color,color 0.2s linear;
+}
+.g-2-button:hover{
+    color:#fff;
+    background-color: #e25c60;
+}
+.g-c{
+  display: inline-block;
+  width:10px;
+  height:10px;
+  border-radius: 6px;
+  border:1px solid #919192;
+  cursor: pointer;
+  margin:0 6px;
+}
+.g-2-c{
+  margin-top: 25px;
+  margin-bottom: -55px;
+}
+.g-2-c input:checked+label>div{
+  background-color: #919192;
+}
 
+.left-arrow{
+  position:absolute;
+  top:256px;
+  right:0px;
+  border-style: solid;
+  border-width:15px 25px;
+  border-right-color: #fff;
+  border-top-color:transparent;
+  border-left-color:transparent;
+  border-bottom-color:transparent;
+}
+.g-holder input{
+  display: none;
+}
 
 /*cover aa3432  theme red be4e48 e3e3e4 tprom a8aaaa 323333 f7f7f7 e3e3e4*/
