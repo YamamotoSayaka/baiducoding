@@ -57,28 +57,41 @@
       <form>
         <div class="sel-flex">
           <div class="sel-holder">
-            <div class="sel" tabindex="20">中国<span><img src="xudfy/e-arrow.png" /></span></div>
+            <input type="radio" name="q-country" value="none" id="e-c-none" checked="checked">
+            <input type="radio" name="q-country" value="china" id="e-c-china">
+            <input type="radio" name="q-country" value="others" id="e-c-others">
+            <div class="sel" tabindex="20"><span id="sel-c"></span><span class="imga"><img src="xudfy/e-arrow.png" /></span></div>
             <ul>
-              <input type="radio" name="q-country" value="china" id="e-c-china"><label for="e-c-china"><li><span></span>中国</li></label>
-              <input type="radio" name="q-country" value="others" id="e-c-others"><label for="e-c-others"><li><span></span>其他</li></label>
+              <label for="e-c-china"><li><span></span>中国</li></label>
+              <label for="e-c-others"><li><span></span>其他国家</li></label>
             </ul>
           </div>
           <div class="sel-holder">
-            <div class="sel" tabindex="21">省份<span><img src="xudfy/e-arrow.png" /></span></div>
+            <input type="radio" name="q-province" value="none" id="e-p-none" checked="checked">
+            <input type="radio" name="q-province" value="beijing" id="e-p-beijing">
+            <input type="radio" name="q-province" value="tianjin" id="e-p-tianjin">
+            <input type="radio" name="q-province" value="hebei" id="e-p-hebei">
+            <input type="radio" name="q-province" value="shanxi" id="e-p-shanxi">
+            <input type="radio" name="q-province" value="neimeng" id="e-p-neimeng">
+            <input type="radio" name="q-province" value="liaoning" id="e-p-liaoning">
+            <div class="sel" tabindex="21"><span id="sel-p"></span><span class="imga"><img src="xudfy/e-arrow.png" /></span></div>
             <ul>
-              <input type="radio" name="q-province" value="beijing" id="e-p-beijing"><label for="e-p-beijing"><li><span></span>北京市</li></label>
-              <input type="radio" name="q-province" value="tianjin" id="e-p-tianjin"><label for="e-p-tianjin"><li><span></span>天津市</li></label>
-              <input type="radio" name="q-province" value="hebei" id="e-p-hebei"><label for="e-p-hebei"><li><span></span>河北省</li></label>
-              <input type="radio" name="q-province" value="shanxi" id="e-p-shanxi"><label for="e-p-shanxi"><li><span></span>陕西省</li></label>
-              <input type="radio" name="q-province" value="neimeng" id="e-p-neimeng"><label for="e-p-neimeng"><li><span></span>内蒙古自治区</li></label>
-              <input type="radio" name="q-province" value="liaoning" id="e-p-liaoning"><label for="e-c-liaoning"><li><span></span>辽宁省</li></label>
+              <label for="e-p-beijing"><li><span></span>北京市</li></label>
+              <label for="e-p-tianjin"><li><span></span>天津市</li></label>
+              <label for="e-p-hebei"><li><span></span>河北省</li></label>
+              <label for="e-p-shanxi"><li><span></span>陕西省</li></label>
+              <label for="e-p-neimeng"><li><span></span>内蒙古自治区</li></label>
+              <label for="e-c-liaoning"><li><span></span>辽宁省</li></label>
             </ul>
           </div>
           <div class="sel-holder">
-            <div class="sel" tabindex="22">城市<span><img src="xudfy/e-arrow.png" /></span></div>
+            <input type="radio" name="q-city" value="none" id="e-ci-none" checked="checked">
+            <input type="radio" name="q-city" value="capital" id="e-ci-capital">
+            <input type="radio" name="q-city" value="others" id="e-ci-others">
+            <div class="sel" tabindex="22"><span id="sel-ci"></span><span class="imga"><img src="xudfy/e-arrow.png" /></span></div>
             <ul>
-              <input type="radio" name="q-city" value="capital" id="e-ci-capital"><label for="e-ci-capital"><li><span></span>省会</li></label>
-              <input type="radio" name="q-city" value="others" id="e-ci-others"><label for="e-ci-others"><li><span></span>其他</li></label>
+              <label for="e-ci-capital"><li><span></span>省会</li></label>
+              <label for="e-ci-others"><li><span></span>其他</li></label>
             </ul>
           </div>
           <input class="e-button" type="button" name="search" value="搜索" />
