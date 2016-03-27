@@ -4,7 +4,7 @@ body{
   font-size :14px;
   margin:0;
   width: 100%;
-  min-width: 1080px;
+  min-width: 1078px;
 }
 h1,h2,h3,h4,h5,h6,ul{
   padding: 0;
@@ -298,6 +298,10 @@ header li{
 .sel-holder ul{
     list-style: none;
 }
+.sel-holder ul:hover{
+  display: block;
+}
+
 .sel-holder input[type="radio"]{
   display:none;
 }
@@ -311,12 +315,11 @@ header li{
   background-color: #fff;
   text-align: left;
   cursor: pointer;
-  margin-right: 40px;
 }
 .sel:focus{
   outline:#be4e48 solid 2px ;
 }
-.sel span{
+.sel span.imga{
   display: block;
   position: absolute;
   right:8px;
@@ -328,6 +331,55 @@ header li{
 }
 .sel span img{
   margin:0;
+}
+#e-p-beijing:checked~.sel>#sel-p:after{
+  content: "北京市";
+  color:#323333;
+}
+#e-p-none:checked~.sel>#sel-p:after{
+  content: "省份";
+}
+#e-p-tianjin:checked~.sel>#sel-p:after{
+  content: "天津市";
+  color:#323333;
+}
+#e-p-hebei:checked~.sel>#sel-p:after{
+  content: "河北省";
+  color:#323333;
+}
+#e-p-shanxi:checked~.sel>#sel-p:after{
+  content: "陕西省";
+  color:#323333;
+}
+#e-p-neimeng:checked~.sel>#sel-p:after{
+  content: "内蒙古自治区";
+  color:#323333;
+}
+#e-p-liaoning:checked~.sel>#sel-p:after{
+  content: "辽宁省";
+  color:#323333;
+}
+#e-c-china:checked~.sel>#sel-c:after{
+  content: "中国";
+  color:#323333;
+}
+#e-c-none:checked~.sel>#sel-c:after{
+  content: "中国";
+}
+#e-c-others:checked~.sel>#sel-c:after{
+  content: "其他国家";
+  color:#323333;
+}
+#e-ci-captital:checked~.sel>#sel-ci:after{
+  content: "省会";
+  color:#323333;
+}
+#e-ci-none:checked~.sel>#sel-ci:after{
+  content: "城市";
+}
+#e-ci-others:checked~.sel>#sel-ci:after{
+  content: "其他";
+  color:#323333;
 }
 
 .sel-holder ul{
@@ -370,7 +422,9 @@ header li{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  align-items: top;
+  align-items:flex-start;
+  width: 88%;
+  margin:0 auto;
 }
 .f-holder{
   display:flex;
@@ -382,6 +436,7 @@ header li{
 .f-item{
   display:table;
   margin:0 18px;
+  width:220px;
   text-align: center;
 }
 .f-img{
