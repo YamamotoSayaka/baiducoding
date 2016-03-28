@@ -370,7 +370,7 @@ header li{
   content: "其他国家";
   color:#323333;
 }
-#e-ci-captital:checked~.sel>#sel-ci:after{
+#e-ci-capital:checked~.sel>#sel-ci:after{
   content: "省会";
   color:#323333;
 }
